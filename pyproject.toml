@@ -1,0 +1,26 @@
+[project]
+name = "agri-advisor-rl"
+version = "0.1.0"
+description = "RL summative: DQN vs REINFORCE vs PPO vs A2C (TorchRL) on a custom smallholder-farm advisory environment"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "torch>=2.5",
+    "torchrl>=0.8",
+    "tensordict>=0.8",
+    "gymnasium>=1.0",
+    "numpy>=1.26",
+    "pygame-ce>=2.5",
+    "PyOpenGL>=3.1.7",
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+    "imageio>=2.34",
+    "imageio-ffmpeg>=0.5",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
