@@ -1,0 +1,28 @@
+{
+  "config": {
+    "lr": 0.003,
+    "gamma": 0.99,
+    "episodes_per_update": 8,
+    "baseline": "value",
+    "normalize": true,
+    "entropy_coef": 0.02,
+    "hidden": [
+      64,
+      64
+    ],
+    "total_frames": 150000,
+    "seed": 0
+  },
+  "result": {
+    "mean_return": 7.1669617554204885,
+    "std_return": 5.35156771861047,
+    "mean_profit": 5.348174824248023,
+    "mean_sold_t": 0.7085006396711635,
+    "mean_lost_t": 0.1022909440830856,
+    "mean_len": 33.91,
+    "unseen_mean_return": -2.48466295960515,
+    "unseen_std_return": 5.300167191767951,
+    "train_time_s": 638.7048542499542,
+    "episodes": 5736
+  }
+}

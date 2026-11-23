@@ -1,0 +1,31 @@
+{
+  "config": {
+    "lr": 0.0001,
+    "gamma": 0.99,
+    "lmbda": 0.95,
+    "clip_eps": 0.2,
+    "epochs": 4,
+    "frames_per_batch": 1024,
+    "minibatch": 256,
+    "entropy_coef": 0.01,
+    "critic_coef": 0.5,
+    "hidden": [
+      64,
+      64
+    ],
+    "total_frames": 150000,
+    "seed": 0
+  },
+  "result": {
+    "mean_return": -0.58881272148723,
+    "std_return": 1.905530130160373,
+    "mean_profit": -1.9052179356856758,
+    "mean_sold_t": 0.7962490221867304,
+    "mean_lost_t": 0.07503324584350231,
+    "mean_len": 25.58,
+    "unseen_mean_return": -4.607466909069676,
+    "unseen_std_return": 4.182169872712387,
+    "train_time_s": 798.2221472263336,
+    "episodes": 6463
+  }
+}

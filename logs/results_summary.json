@@ -1,0 +1,82 @@
+{
+  "best_runs": {
+    "dqn": 1,
+    "reinforce": 10,
+    "ppo": 2,
+    "a2c": 10
+  },
+  "convergence": {
+    "dqn": {
+      "episode": 4056,
+      "frames": 114400,
+      "threshold": 9.36341593334014,
+      "plateau": 10.802300413155558
+    },
+    "reinforce": {
+      "episode": 5038,
+      "frames": 134383,
+      "threshold": 6.974904636880531,
+      "plateau": 8.100271333009006
+    },
+    "ppo": {
+      "episode": 3397,
+      "frames": 90112,
+      "threshold": 9.68209250671854,
+      "plateau": 11.265001010942457
+    },
+    "a2c": {
+      "episode": 4667,
+      "frames": 115584,
+      "threshold": 7.060285306054915,
+      "plateau": 8.337740470767022
+    }
+  },
+  "generalization": {
+    "dqn": {
+      "train_mean": 11.490497520526214,
+      "train_std": 2.207750662067885,
+      "unseen_mean": 5.563382160432942,
+      "unseen_std": 5.823681564001893,
+      "train_profit": 8.539538149931207,
+      "unseen_profit": 3.8393386593509717,
+      "train_lost_t": 0.13693146079272578,
+      "unseen_lost_t": 0.06107817986960118
+    },
+    "reinforce": {
+      "train_mean": 11.172378226741182,
+      "train_std": 3.538526088571836,
+      "unseen_mean": 5.564988943016934,
+      "unseen_std": 4.3122503438435125,
+      "train_profit": 8.223225543053399,
+      "unseen_profit": 3.552821956093053,
+      "train_lost_t": 0.13816554679814502,
+      "unseen_lost_t": 0.0864506320626116
+    },
+    "ppo": {
+      "train_mean": 11.639237052921917,
+      "train_std": 2.776832277029716,
+      "unseen_mean": 4.630688597616872,
+      "unseen_std": 5.7926182575244045,
+      "train_profit": 8.740657232419464,
+      "unseen_profit": 2.598164547759678,
+      "train_lost_t": 0.10973911987618337,
+      "unseen_lost_t": 0.0877293316745372
+    },
+    "a2c": {
+      "train_mean": 9.65438850080444,
+      "train_std": 2.3944685193890964,
+      "unseen_mean": 6.847047446014436,
+      "unseen_std": 4.359405319298508,
+      "train_profit": 6.957570542658119,
+      "unseen_profit": 4.660169063294479,
+      "train_lost_t": 0.060944519082707246,
+      "unseen_lost_t": 0.04817557820372983
+    }
+  },
+  "random_baseline": {
+    "train": -4.4070167061499435,
+    "expert_train": 12.11928716283648,
+    "unseen": -5.766113606533506,
+    "expert_unseen": 7.26587191904875
+  }
+}

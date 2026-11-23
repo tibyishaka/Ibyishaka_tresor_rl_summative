@@ -1,0 +1,35 @@
+{
+  "config": {
+    "lr": 0.001,
+    "gamma": 0.99,
+    "buffer_size": 100000,
+    "batch_size": 256,
+    "eps_init": 1.0,
+    "eps_end": 0.05,
+    "eps_frac": 0.3,
+    "target": "soft",
+    "tau": 0.01,
+    "double": false,
+    "hidden": [
+      128,
+      128
+    ],
+    "total_frames": 150000,
+    "frames_per_batch": 50,
+    "utd": 2,
+    "warmup": 2000,
+    "seed": 0
+  },
+  "result": {
+    "mean_return": 11.128036281706489,
+    "std_return": 2.7160784167089056,
+    "mean_profit": 8.242399980654715,
+    "mean_sold_t": 0.7477390211272984,
+    "mean_lost_t": 0.0968469105841623,
+    "mean_len": 32.32,
+    "unseen_mean_return": 2.9676950205117185,
+    "unseen_std_return": 7.311482755222812,
+    "train_time_s": 726.8314518928528,
+    "episodes": 4956
+  }
+}
